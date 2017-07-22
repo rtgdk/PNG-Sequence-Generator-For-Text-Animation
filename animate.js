@@ -22,7 +22,7 @@ page.open(address, function(){
 									return document.querySelector('.hp_strip').getBoundingClientRect();
 								});
 								page.viewportSize = { width: 1024, height: 768 };
-								page.clipRect ={ top:225,left:75,width:1024,height:260 };
+								page.clipRect ={ top:225,left:75,width:1024,height:260 };  // Set page Clip Rectangle Here
                 page.render('capture/'+i+'.png');
                 console.log("filling inputs"+i);
                 snap(++i);

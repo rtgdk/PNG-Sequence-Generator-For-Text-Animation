@@ -4,7 +4,7 @@ Work at Yrals. Generating PNG Sequence for text animation
 # Set Up
 1. Decide which animation you want to save.
 2. Copy the link to the animation.
-3. Set the page width and height accordingly in the code
+3. Set the Page Clip Rectangle accordingly in the code
 
 # How it Works
 
